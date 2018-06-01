@@ -46,3 +46,16 @@ function printPrimeNumber() {
 		console.log('fail');
 	}
 })();
+
+
+var pos = 0;
+var left = document.getElementById('left').onclick = sliderLeft;
+function sliderLeft() {
+	var line = document.querySelector('.line');
+	if (pos > -512) {
+		pos -= 128;		
+	} else {
+		pos = 0;
+	}
+		line.style.left = pos + 'px';
+}

@@ -1,0 +1,17 @@
+.slider {
+	width: 128px;
+	height: 129px;
+	border: 1px solid black;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.line {
+	width: 640px; /* 5 * 128px */
+	position: relative;
+	margin: 0;
+	transition: all ease 0.5s;
+}
+
+.line img {
+	float: left;
+}
